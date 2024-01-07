@@ -15,30 +15,32 @@
 			href="./assets/images/favicon-32x32.png"
 		/>
 
-		<title>Frontend Mentor | Blog preview card</title>
+		<link rel="stylesheet" href="styles.css" />
 
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
+		<title>Frontend Mentor | Blog preview card</title>
 	</head>
 	<body>
 		<div class="container">
 			<div class="card">
-				<div class="card__topic">Learning</div>
-				<div class="card__published">Published 21 Dec 2023</div>
-				<h2>HTML &amp; CSS foundations</h2>
-				<p>
-					These languages are the backbone of every website, defining
-					structure, content, and presentation.
-				</p>
-				<div class="card__author">Greg Hooper</div>
+				<div class="card__image">
+					<img src="assets/images/illustration-article.svg" />
+				</div>
+				<div class="card__content">
+					<div class="card__topic">Learning</div>
+					<div class="card__published">Published 21 Dec 2023</div>
+					<h2 class="card__heading">HTML &amp; CSS foundations</h2>
+					<p>
+						These languages are the backbone of every website,
+						defining structure, content, and presentation.
+					</p>
+					<div class="card__author-details">
+						<img
+							class="card__author-avater"
+							src="assets/images/image-avatar.webp"
+						/>
+						Greg Hooper
+					</div>
+				</div>
 			</div>
 		</div>
 
